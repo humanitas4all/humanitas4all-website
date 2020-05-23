@@ -3,12 +3,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
+    <!--     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    />
+    /> -->
+    <style>
+      .carousel {
+        height: 700px;
+      }
+    </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -16,6 +21,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+
     <title>Humanitas4All</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -95,38 +101,36 @@
         </ul>
       </div>
     </nav>
-    <div id="main-banner">
-      <div class="carousel">
-        <a class="carousel-item"
-          ><img
-            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_1976.jpg?v=1590253551050"
-        /></a>
-        <a class="carousel-item"
-          ><img
-            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2115.jpg?v=1590253555877"
-        /></a>
-        <a class="carousel-item"
-          ><img
-            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2333.jpg?v=1590253560984"
-        /></a>
-        <a class="carousel-item"
-          ><img
-            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_4742.HEIC?v=1590253568881"
-        /></a>
-        <a class="carousel-item"
-          ><img
-            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2385.jpg?v=1590253577023"
-        /></a>
-      </div>
-      <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">
-        Humanitas4All
-      </h1>
+
+    <div class="carousel carousel-slider">
+      <a href="#one!" class="carousel-item"
+        ><img
+          src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_1976.jpg?v=1590253551050"
+      ></a>
+      <a href="#two!" class="carousel-item"
+        ><img
+          src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2115.jpg?v=1590253555877"
+      ></a>
+      <a href="#three!" class="carousel-item"
+        ><img
+          src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2333.jpg?v=1590253560984"
+      ></a>
+      <a href="#four!" class="carousel-item"
+        ><img
+          src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_4742.HEIC?v=1590253568881"
+      ></a>
+      <a href="#five!" class="carousel-item"
+        ><img
+          src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2385.jpg?v=1590253577023"
+      ></a>
     </div>
+
+    <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">
+      Humanitas4All
+    </h1>
+
     <p></p>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
     <script>
       // CAROUSEL
       $(document).ready(function() {
