@@ -18,8 +18,8 @@ h1 {
   right: 10px;
 }
 .navbar-nav > li {
-  margin-left:30px;
-  margin-right:30px;
+  margin-left : 1em;
+  margin-right : 1em;
   
 }
 
