@@ -9,6 +9,9 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Humanitas4All</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -90,11 +93,26 @@
     </nav>
     <div id="main-banner">
       <div class="carousel">
-        <a class="carousel-item"><img src=""/></a>
-        <a class="carousel-item"><img src=""/></a>
-        <a class="carousel-item"><img src=""/></a>
-        <a class="carousel-item"><img src=""/></a>
-        <a class="carousel-item"><img src=""/></a>
+        <a class="carousel-item"
+          ><img
+            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_1976.jpg?v=1590253551050"
+        /></a>
+        <a class="carousel-item"
+          ><img
+            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2115.jpg?v=1590253555877"
+        /></a>
+        <a class="carousel-item"
+          ><img
+            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2333.jpg?v=1590253560984"
+        /></a>
+        <a class="carousel-item"
+          ><img
+            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_4742.HEIC?v=1590253568881"
+        /></a>
+        <a class="carousel-item"
+          ><img
+            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2FIMG_2385.jpg?v=1590253577023"
+        /></a>
       </div>
       <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">
         Humanitas4All
@@ -106,16 +124,22 @@
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        var elems = document.querySelectorAll(".carousel");
-        var instances = M.Carousel.init(elems, options);
-      });
-
-      // Or with jQuery
-
+      // CAROUSEL
       $(document).ready(function() {
-        $(".carousel").carousel();
+        $(".carousel").carousel({
+          dist: 0,
+          padding: 0,
+          fullWidth: true,
+          indicators: true,
+          duration: 100
+        });
       });
+
+      autoplay();
+      function autoplay() {
+        $(".carousel").carousel("next");
+        setTimeout(autoplay, 4500);
+      }
     </script>
   </body>
 </html>
