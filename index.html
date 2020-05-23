@@ -89,13 +89,33 @@
       </div>
     </nav>
     <div id="main-banner">
-      <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">Humanitas4All</h1>
+      <div class="carousel">
+        <a class="carousel-item"><img src=""/></a>
+        <a class="carousel-item"><img src=""/></a>
+        <a class="carousel-item"><img src=""/></a>
+        <a class="carousel-item"><img src=""/></a>
+        <a class="carousel-item"><img src=""/></a>
+      </div>
+      <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">
+        Humanitas4All
+      </h1>
     </div>
     <p></p>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".carousel");
+        var instances = M.Carousel.init(elems, options);
+      });
+
+      // Or with jQuery
+
+      $(document).ready(function() {
+        $(".carousel").carousel();
+      });
+    </script>
   </body>
 </html>

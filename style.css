@@ -18,10 +18,10 @@ h1 {
   right: 10px;
 }
 .navbar-nav > li {
-  margin-left : 1em;
-  margin-right : 1em;
+  padding-left:30px;
+  padding-right:30px;
   
-}
+} 
 
 .navbar {
   background: #42f590;
