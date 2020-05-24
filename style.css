@@ -27,8 +27,9 @@ h1 {
   background: #42f590;
 }
 
-.center{
-  text-align: center
-}
 
-.description
+.description{
+  max-width: 60%;
+  margin: 0 auto; 
+  
+}
