@@ -3,45 +3,100 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--stylesheets-->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!--js-->
+    <!-- JQuery -->
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"
+    ></script>
+    <script src="/script.js" defer></script>
+
+    <!-- --->
 
     <title>Humanitas4All</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
     <!--Navigation bar -->
     <div id="nav-placeholder"></div>
     <script>
-      $(function(){
+      $(function() {
         $("#nav-placeholder").load("nav.html");
-      })  
+      });
     </script>
     <!-- Navigation bar -->
-   
-    <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">
-      Contact
-    </h1>
 
+    <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">
+      Contact Us
+    </h1>
+    <pre></pre>
+    <div class="icons" style="text-align:center">
+      <!--Facebook-->
+      <a class="btn-floating btn-lg btn-fb" type="button" role="button" href="https://www.facebook.com/humanitas4all"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <!--Twitter-->
+      <a class="btn-floating btn-lg btn-tw" type="button" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <!--Linkedin-->
+      <a class="btn-floating btn-lg btn-li" type="button" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!--Instagram-->
+      <a class="btn-floating btn-lg btn-ins" type="button" role="button" href="https://www.instagram.com/humanitas4all/"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <!--Youtube-->
+      <a class="btn-floating btn-lg btn-yt" type="button" role="button"
+        ><i class="fab fa-youtube"></i
+      ></a>
+      <!--Email-->
+      <a class="btn-floating btn-lg btn-email" type="button" role="button" href = "mailto: 4humanitas@gmail.com"
+        ><i class="fas fa-envelope"></i
+      ></a>
+    </div>
     <p></p>
   </body>
 </html>
