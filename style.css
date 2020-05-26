@@ -33,13 +33,6 @@ h1 {
   margin: 0 auto; 
   
 }
-.item {
-  width: 100%;
-  height: 300px; /* example */
-}
-
-.item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.carousel-inner > .carousel-item > img {
+  width:450px; height:600px;
 }
