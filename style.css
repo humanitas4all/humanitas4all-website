@@ -35,6 +35,10 @@ h1 {
   height: 600px;
 }
 
+.teamjobname {
+  text-size: 24px;
+}
+
 #teambox {
   text-align: center;
 }
