@@ -48,6 +48,10 @@ h1 {
 }
 
 .sponsor-container img:hover{
-  opacity: 0.85;
-  transform: scale(1.1);
+  filter: brightness(90%);
+  transform: scale(1.05);
+  -webkit-transition: ;
+  -moz-transition: background-color 500ms ease-out 1s;
+  -o-transition: background-color 500ms ease-out 1s;
+  transition: background-color 500ms ease-out 1s;
 }
