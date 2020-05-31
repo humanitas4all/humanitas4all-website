@@ -47,11 +47,16 @@ h1 {
   padding-top: 20px;
 }
 
+.sponsor-container img{
+  -webkit-backface-visibility: hidden;
+  width: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
 .sponsor-container img:hover{
-  filter: brightness(90%);
+  /*filter: brightness(90%);*/
   transform: scale(1.05);
-  -webkit-transition: ;
-  -moz-transition: background-color 500ms ease-out 1s;
-  -o-transition: background-color 500ms ease-out 1s;
-  transition: background-color 500ms ease-out 1s;
 }
