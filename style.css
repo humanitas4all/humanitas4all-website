@@ -48,23 +48,17 @@ h1 {
 }
 
 .sponsor-container img{
-  -webkit-filter: blur(0px); 
-  filter: none;
-  -moz-filter: blur(0px); 
-  -ms-filter: blur(0px);
-  webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform: scale(1, 1);
-  -webkit-transform: scale(1, 1);
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  width: auto;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .sponsor-container img:hover{
-  transform: scale(1.05, 1.05) translateZ(0);
-  -webkit-transform: scale(1.05, 1.05) translateZ(0);
-  -o-transform: scale(1.05) translateZ(0);  
-  -moz-transform: scale(1.05) translateZ(0);
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  -o-transform: translateY(-2px);  
+  -moz-transform: translateY(-2px);
+  filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.2));
 }
