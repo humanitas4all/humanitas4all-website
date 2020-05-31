@@ -42,6 +42,12 @@ h1 {
 .sponsor-container {
   display: flex;
   flex-flow: row wrap;
-  
-  
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.sponsor-container img:hover{
+  opacity: 0.85;
+  transform: scale(1.1);
 }
