@@ -34,6 +34,12 @@ h1 {
 .carousel-inner > .carousel-item > img {
   width: 800px;
   height: 600px;
+  
+}
+.carouselExampleControls{
+    width: 800px;
+  height: 600px;
+  
 }
 
 .card-img-top {
@@ -66,4 +72,7 @@ h1 {
 li
 {
   margin: 10px 0;
+}
+.carousel-inner{
+  align-items:center;
 }
