@@ -48,13 +48,13 @@ h1 {
 }
 
 .sponsor-container img{
-  transform: translateZ(0);/*
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;*/
+  transform: scale(1);
+  /*backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;*/
 }
 
 .sponsor-container img:hover{
