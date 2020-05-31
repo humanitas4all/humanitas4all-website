@@ -36,8 +36,9 @@ h1 {
   height: 600px;
   
 }
-.carouselExampleControls{
-    width: 800px;
+.carousel{
+  position: center;
+  width: 800px;
   height: 600px;
   
 }
