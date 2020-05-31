@@ -32,8 +32,8 @@ h1 {
   margin: 0 auto;
 }
 .carousel-inner > .carousel-item > img {
-  width: 750px;
-  height: 1000px;
+  width: 800px;
+  height: 600px;
 }
 
 .card-img-top {
