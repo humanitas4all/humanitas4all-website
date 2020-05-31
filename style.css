@@ -48,8 +48,9 @@ h1 {
 }
 
 .sponsor-container img{
-  -webkit-backface-visibility: hidden;
   width: auto;
+  transform: scale(0.9)
+  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -58,5 +59,5 @@ h1 {
 
 .sponsor-container img:hover{
   /*filter: brightness(90%);*/
-  transform: scale(1.05);
+  transform: scale(1.00);
 }
