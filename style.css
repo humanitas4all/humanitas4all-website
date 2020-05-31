@@ -38,3 +38,10 @@ h1 {
 .card-img-top {
   
 }
+
+.sponsor-container {
+  display: flex;
+  flex-flow: row wrap;
+  
+  
+}
