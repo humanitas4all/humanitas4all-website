@@ -48,17 +48,17 @@ h1 {
 }
 
 .sponsor-container img{
-  width: auto;
+  width: auto;  
+  transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
 }
 
 .sponsor-container img:hover{
   transform: translateY(-2px);
-  -webkit-transform: translateY(-2px);
-  -o-transform: translateY(-2px);  
+  -webkit-transform: translateY(-2px);  
   -moz-transform: translateY(-2px);
+  -o-transform: translateY(-2px);  
   filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.2));
 }
