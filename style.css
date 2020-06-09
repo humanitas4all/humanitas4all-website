@@ -33,6 +33,7 @@ body {
 .description {
   max-width: 60%;
   margin: 0 auto;
+  padding: 0 0 1em 0; 
 }
 .carousel-inner > .carousel-item > img {
   width: 800px;
