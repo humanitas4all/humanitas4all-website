@@ -2,97 +2,93 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="icon"
-      href="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2Fhumanitas%20logo.jpg?v=1590250271492"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
 
-    <title>Humanitas4All</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
 
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+  <link rel="icon"
+    href="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2Fhumanitas%20logo.jpg?v=1590250271492" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <!-- Material Design Bootstrap -->
+  <link href="/mdb.min.css" rel="stylesheet" />
 
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  </head>
-  <body>
-    <!--Navigation bar -->
-    <div id="nav-placeholder"></div>
-    <script>
-      $(function() {
-        $("#nav-placeholder").load("nav.html");
-      });
-    </script>
-    <!-- Navigation bar -->
+  <title>Humanitas4All</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">
-      Sponsors and Support Us
-    </h1>
-<br>
-    <p style="text-align: center">
-      If you would like to directly support Humanitas4All, please donate using this 
-      <a href=" https://bank.hackclub.com/donations/start/humanitas4all" style="color:#74e5a2"><b>link</b></a
-      >!
+  <!-- Custom styles for this template -->
+  <link href="/full-width-pics.css" rel="stylesheet">
+
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="/style.css" />
+
+  <!-- import the webpage's javascript file -->
+  <script src="/script.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+  <!--Navigation bar -->
+  <div id="nav-placeholder"></div>
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("nav.html");
+    });
+  </script>
+  <!-- Navigation bar -->
+
+  <h1 style="font-family: 'Geneva'; font-style: italic; text-align: center">
+    Sponsors and Support Us
+  </h1>
+  <br>
+  <p style="text-align: center">
+    If you would like to directly support Humanitas4All, please donate using this
+    <a href=" https://bank.hackclub.com/donations/start/humanitas4all" style="color:#74e5a2"><b>link</b></a>!
+  </p>
+
+
+
+  <div class="sponsor">
+    <p style="font-size: 25px">
+      <a href="https://wesleyhousing.org/">Wesley Housing Center</a>
     </p>
-    
-    
-
-    <div class="sponsor">
-      <p style="font-size: 25px">
-        <a href="https://wesleyhousing.org/">Wesley Housing Center</a>
-      </p>
-      <p class="description"></p>
-      <div class="sponsor-container">
-        <a href="https://wesleyhousing.org/">
-          <img
-            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2Fwesley_housing.png?v=1590886421965"
-            alt="Wesley Housing"
-          />
-        </a>
-      </div>
+    <p class="description"></p>
+    <div class="sponsor-container">
+      <a href="https://wesleyhousing.org/">
+        <img src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2Fwesley_housing.png?v=1590886421965"
+          alt="Wesley Housing" />
+      </a>
     </div>
-    <br>
-    <br>
-    <div class="sponsor">
-      <p style="font-size: 25px">
-        <a href="https://hackclub.com/">Hack Club Bank</a>
-      </p>
-      <p class="description"></p>
-      <div class="sponsor-container">
-        <a href="https://hackclub.com/">
-          <img
-            src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2Fhcb-logo-original-light.png?v=1599277681994"
-            alt="Hack Club Bank"
-          />
-        </a>        
-      </div>
-    </div>
-    <br>
-    <p style="text-align: center">
-      If you would like to sponsor Humanitas4All, please
-      <a href="contactUs.html" style="color:#74e5a2"><b>contact us</b></a
-      >!
+  </div>
+  <br>
+  <br>
+  <div class="sponsor">
+    <p style="font-size: 25px">
+      <a href="https://hackclub.com/">Hack Club Bank</a>
     </p>
-    <br>
-    <br>
-    <p>Humanitas4All is fiscally sponsored by Hack Club Bank, a project by the The Hack Foundation (d.b.a Hack Club), a 501(c)(3) nonprofit </p>
-    <p></p>
-  </body>
+    <p class="description"></p>
+    <div class="sponsor-container">
+      <a href="https://hackclub.com/">
+        <img
+          src="https://cdn.glitch.com/b2f65a41-dee2-4c11-8f51-c32e95d22638%2Fhcb-logo-original-light.png?v=1599277681994"
+          alt="Hack Club Bank" />
+      </a>
+    </div>
+  </div>
+  <br>
+  <p style="text-align: center">
+    If you would like to sponsor Humanitas4All, please
+    <a href="contactUs.html" style="color:#74e5a2"><b>contact us</b></a>!
+  </p>
+  <br>
+  <br>
+  <p>Humanitas4All is fiscally sponsored by Hack Club Bank, a project by the The Hack Foundation (d.b.a Hack Club), a
+    501(c)(3) nonprofit </p>
+  <p></p>
+</body>
+
 </html>
